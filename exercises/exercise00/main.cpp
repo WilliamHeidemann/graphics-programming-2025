@@ -3,24 +3,26 @@
 
 #include <ituGL/core/DeviceGL.h>
 #include <ituGL/application/Window.h>
+#include <ituGL/geometry/VertexBufferObject.h>
+#include <ituGL/geometry/VertexArrayObject.h>
+#include <ituGL/geometry/VertexAttribute.h>
 
 #include <iostream>
 
-#include <ituGL/geometry/VertexArrayObject.h>
-#include <ituGL/geometry/VertexBufferObject.h>
-#include <ituGL/geometry/VertexAttribute.h>
-
-
 unsigned int BuildShaderProgram();
+void processInput(GLFWwindow* window);
 
 // settings
 const unsigned int SCR_WIDTH = 800;
 const unsigned int SCR_HEIGHT = 600;
 
-
 int main()
 {
     DeviceGL device;
+
+    // glfw window creation
+    // --------------------
+
     Window window(SCR_WIDTH, SCR_HEIGHT, "LearnOpenGL");
 
     if (!window.IsValid())
@@ -31,6 +33,8 @@ int main()
 
     device.SetCurrentWindow(window);
 
+    // glad: load all OpenGL function pointers
+    // ---------------------------------------
     if (!device.IsReady())
     {
         std::cout << "Failed to initialize GLAD" << std::endl;
@@ -38,7 +42,7 @@ int main()
     }
 
     unsigned int shaderProgram = BuildShaderProgram();
-    
+
     // set up vertex data (and buffer(s)) and configure vertex attributes
     // ------------------------------------------------------------------
     float vertices[] = {
@@ -48,6 +52,8 @@ int main()
     };
 
     unsigned int VBO, VAO;
+    VertexBufferObject vbo;
+    VertexArrayObject vao;
     glGenVertexArrays(1, &VAO);
     glGenBuffers(1, &VBO);
     // bind the Vertex Array Object first, then bind and set vertex buffer(s), and then configure vertex attributes(s).
@@ -74,8 +80,11 @@ int main()
     // -----------
     while (!window.ShouldClose())
     {
-        glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
-        glClear(GL_COLOR_BUFFER_BIT);
+        processInput(window.GetInternalWindow());
+
+        // render
+        // ------
+        device.Clear(0.2f, 0.3f, 0.3f, 1.0f);
 
         // draw our first triangle
         glUseProgram(shaderProgram);
@@ -86,6 +95,7 @@ int main()
         // glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
         // -------------------------------------------------------------------------------
         window.SwapBuffers();
+        glfwPollEvents();
     }
 
     // optional: de-allocate all resources once they've outlived their purpose:
@@ -94,7 +104,16 @@ int main()
     glDeleteBuffers(1, &VBO);
     glDeleteProgram(shaderProgram);
 
+
     return 0;
+}
+
+// process all input: query GLFW whether relevant keys are pressed/released this frame and react accordingly
+// ---------------------------------------------------------------------------------------------------------
+void processInput(GLFWwindow* window)
+{
+    if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
+        glfwSetWindowShouldClose(window, true);
 }
 
 unsigned int BuildShaderProgram()
@@ -151,6 +170,5 @@ unsigned int BuildShaderProgram()
     }
     glDeleteShader(vertexShader);
     glDeleteShader(fragmentShader);
-
     return shaderProgram;
 }
