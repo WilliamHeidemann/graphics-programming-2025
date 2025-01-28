@@ -6,6 +6,11 @@
 
 #include <iostream>
 
+#include <ituGL/geometry/VertexArrayObject.h>
+#include <ituGL/geometry/VertexBufferObject.h>
+#include <ituGL/geometry/VertexAttribute.h>
+
+
 unsigned int BuildShaderProgram();
 
 // settings
