@@ -14,6 +14,7 @@
 unsigned int BuildShaderProgram();
 
 void processInput(GLFWwindow *window);
+void rotateVertices(float vertices[], int count, float anglesToRotate);
 
 // settings
 const unsigned int SCR_WIDTH = 512;
@@ -49,15 +50,18 @@ int main() {
         -0.5f, -0.5f, 0.0f, // bottom-left
         0.5f, -0.5f, 0.0f, // bottom-right
         0.5f, 0.5f, 0.0f, // top-right
-        -0.5f, 0.5f, 0.0f // top-left
+        -0.5f, 0.5f, 0.0f, // top-left
+        -0.5f, -0.6f, 0.0f,
+        00.0f, -0.8f, 0.0f,
+        0.5f, -0.6f, 0.0f
     };
 
     constexpr float radius = std::sqrt(2.0f) / 2;
-    constexpr float degreesToRadians = 3.141592653589793f / 180.0f;
 
     unsigned int indices[] = {
         0, 1, 2,
-        2, 3, 0
+        2, 3, 0,
+        4, 5, 6
     };
 
     unsigned int VBO, VAO;
@@ -104,21 +108,8 @@ int main() {
         // ------
         device.Clear(0.2f, 0.1f, 0.8f, 1.0f);
 
-        float angle = startAngle * degreesToRadians;
-        startAngle += 0.01;
+        rotateVertices(vertices, verticesCount, -0.01f);
 
-        for (int i = 0; i < verticesCount; i += 3) {
-            float x = std::sin(angle) * radius;
-            float y = std::cos(angle) * radius;
-
-            vertices[i + 0] = x;
-            vertices[i + 1] = y;
-            vertices[i + 2] = 0.0f;
-
-            angle += 90.0f * degreesToRadians;
-        }
-
-        // angle += 0.001f;
         vbo.UpdateData(std::span(vertices, verticesCount));
 
         // draw our first triangle
@@ -202,4 +193,26 @@ unsigned int BuildShaderProgram() {
     glDeleteShader(vertexShader);
     glDeleteShader(fragmentShader);
     return shaderProgram;
+}
+
+void rotateVertices(float vertices[], int count, float anglesToRotate) {
+    constexpr float degreesToRadians = 3.141592653589793f / 180.0f;
+
+    float radians = anglesToRotate * degreesToRadians;
+    float cosAngle = cosf(radians);
+    float sinAngle = sinf(radians);
+
+
+    for (int i = 0; i < count; i += 3) {
+        float x = vertices[i + 0];
+        float y = vertices[i + 1];
+        float z = vertices[i + 2];
+
+        float xPrime = x * cosAngle - y * sinAngle;
+        float yPrime = x * sinAngle + y * cosAngle;
+
+        vertices[i + 0] = xPrime;
+        vertices[i + 1] = yPrime;
+        vertices[i + 2] = z;
+    }
 }
