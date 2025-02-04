@@ -9,14 +9,15 @@
 #include <ituGL/geometry/ElementBufferObject.h>
 
 #include <iostream>
+#include <valarray>
 
 unsigned int BuildShaderProgram();
 
 void processInput(GLFWwindow *window);
 
 // settings
-const unsigned int SCR_WIDTH = 800;
-const unsigned int SCR_HEIGHT = 800;
+const unsigned int SCR_WIDTH = 512;
+const unsigned int SCR_HEIGHT = 512;
 
 int main() {
     DeviceGL device;
@@ -51,6 +52,9 @@ int main() {
         -0.5f, 0.5f, 0.0f // top-left
     };
 
+    constexpr float radius = std::sqrt(2.0f) / 2;
+    constexpr float degreesToRadians = 3.141592653589793f / 180.0f;
+
     unsigned int indices[] = {
         0, 1, 2,
         2, 3, 0
@@ -68,7 +72,7 @@ int main() {
     vao.Bind();
 
     vbo.Bind();
-    vbo.AllocateData<float>(std::span(vertices,  verticesCount));
+    vbo.AllocateData<float>(std::span(vertices, verticesCount));
 
     ebo.Bind();
     ebo.AllocateData(std::span(indices, indicesCount));
@@ -78,13 +82,13 @@ int main() {
     vao.SetAttribute(0, position, 0);
 
     // note that this is allowed, the call to glVertexAttribPointer registered VBO as the vertex attribute's bound vertex buffer object so afterwards we can safely unbind
-    VertexBufferObject::Unbind();
+    // VertexBufferObject::Unbind();
 
     // You can unbind the VAO afterwards so other VAO calls won't accidentally modify this VAO, but this rarely happens. Modifying other
     // VAOs requires a call to glBindVertexArray anyways so we generally don't unbind VAOs (nor VBOs) when it's not directly necessary.
-    VertexArrayObject::Unbind();
+    // VertexArrayObject::Unbind();
 
-    ElementBufferObject::Unbind();
+    // ElementBufferObject::Unbind();
 
 
     // uncomment this call to draw in wireframe polygons.
@@ -92,15 +96,29 @@ int main() {
 
     // render loop
     // -----------
-    float time = 0.5;
+    float startAngle = 0.0f;
     while (!window.ShouldClose()) {
         processInput(window.GetInternalWindow());
 
         // render
         // ------
         device.Clear(0.2f, 0.1f, 0.8f, 1.0f);
-        time += 0.001f;
-        vertices[3] = time;
+
+        float angle = startAngle * degreesToRadians;
+        startAngle += 0.01;
+
+        for (int i = 0; i < verticesCount; i += 3) {
+            float x = std::sin(angle) * radius;
+            float y = std::cos(angle) * radius;
+
+            vertices[i + 0] = x;
+            vertices[i + 1] = y;
+            vertices[i + 2] = 0.0f;
+
+            angle += 90.0f * degreesToRadians;
+        }
+
+        // angle += 0.001f;
         vbo.UpdateData(std::span(vertices, verticesCount));
 
         // draw our first triangle
