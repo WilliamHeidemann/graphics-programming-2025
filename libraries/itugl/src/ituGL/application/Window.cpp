@@ -7,9 +7,8 @@ Window::Window(int width, int height, const char* title) : m_window(nullptr)
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 1);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
-#ifdef APPLE
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
-#endif
+
     m_window = glfwCreateWindow(width, height, title, nullptr, nullptr);
 }
 
@@ -44,4 +43,9 @@ bool Window::ShouldClose() const
 void Window::SwapBuffers()
 {
     glfwSwapBuffers(m_window);
+}
+
+Window::KeyState Window::GetKeyState(int keyCode) const
+{
+    return static_cast<KeyState>(glfwGetKey(m_window, keyCode));
 }
