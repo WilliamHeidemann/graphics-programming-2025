@@ -86,13 +86,13 @@ int main() {
     vao.SetAttribute(0, position, 0);
 
     // note that this is allowed, the call to glVertexAttribPointer registered VBO as the vertex attribute's bound vertex buffer object so afterwards we can safely unbind
-    // VertexBufferObject::Unbind();
+    VertexBufferObject::Unbind();
 
     // You can unbind the VAO afterwards so other VAO calls won't accidentally modify this VAO, but this rarely happens. Modifying other
     // VAOs requires a call to glBindVertexArray anyways so we generally don't unbind VAOs (nor VBOs) when it's not directly necessary.
-    // VertexArrayObject::Unbind();
+    VertexArrayObject::Unbind();
 
-    // ElementBufferObject::Unbind();
+    ElementBufferObject::Unbind();
 
 
     // uncomment this call to draw in wireframe polygons.
@@ -110,7 +110,9 @@ int main() {
 
         rotateVertices(vertices, verticesCount, -0.01f);
 
+        vbo.Bind();
         vbo.UpdateData(std::span(vertices, verticesCount));
+        vbo.Unbind();
 
         // draw our first triangle
         glUseProgram(shaderProgram);
@@ -125,6 +127,8 @@ int main() {
         // -------------------------------------------------------------------------------
         window.SwapBuffers();
         glfwPollEvents();
+
+        vao.Unbind();
     }
 
     // optional: de-allocate all resources once they've outlived their purpose:
