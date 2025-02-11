@@ -951,10 +951,16 @@
 			"path" : "libraries/itugl/CMakeLists.txt"
 		},
 		{
+			"path" : "libraries/stb/CMakeLists.txt"
+		},
+		{
 			"path" : "exercises/CMakeLists.txt"
 		},
 		{
 			"path" : "exercises/exercise00/CMakeLists.txt"
+		},
+		{
+			"path" : "exercises/exercise01/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

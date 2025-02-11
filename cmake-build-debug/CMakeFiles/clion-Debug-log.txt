@@ -42,6 +42,6 @@ CMake Deprecation Warning at libraries/glfw/CMakeLists.txt:1 (cmake_minimum_requ
 -- Performing Test _GLFW_HAS_64ASLR
 -- Performing Test _GLFW_HAS_64ASLR - Success
 -- Using Win32 for window creation
--- Configuring done (9.5s)
--- Generating done (0.0s)
+-- Configuring done (9.0s)
+-- Generating done (0.1s)
 -- Build files have been written to: C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug

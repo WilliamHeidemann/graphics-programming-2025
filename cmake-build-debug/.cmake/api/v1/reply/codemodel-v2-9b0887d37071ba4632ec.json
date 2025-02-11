@@ -9,7 +9,7 @@
 					"childIndexes" : 
 					[
 						1,
-						6
+						7
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
@@ -26,7 +26,8 @@
 					[
 						2,
 						3,
-						5
+						5,
+						6
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-libraries-Debug-d3d29cb4a9ce453e99dd.json",
@@ -50,7 +51,7 @@
 					"source" : "libraries/glad",
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
@@ -60,7 +61,7 @@
 						4
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-libraries.glfw-Debug-2aeb5d6801ef52540de6.json",
+					"jsonFile" : "directory-libraries.glfw-Debug-f8247fe643c23ff5fcd6.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.0"
@@ -70,13 +71,13 @@
 					"source" : "libraries/glfw",
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				},
 				{
 					"build" : "libraries/glfw/src",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-libraries.glfw.src-Debug-1e746a7e35448610f1cc.json",
+					"jsonFile" : "directory-libraries.glfw.src-Debug-f941fe8435665fa0f61c.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.0"
@@ -86,7 +87,7 @@
 					"source" : "libraries/glfw/src",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -101,14 +102,26 @@
 					"source" : "libraries/itugl",
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
+				},
+				{
+					"build" : "libraries/stb",
+					"jsonFile" : "directory-libraries.stb-Debug-25dcd7e467bbd05a116f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "libraries/stb"
 				},
 				{
 					"build" : "exercises",
 					"childIndexes" : 
 					[
-						7
+						8,
+						9
 					],
 					"jsonFile" : "directory-exercises-Debug-789516e9c46f9079ee7f.json",
 					"minimumCMakeVersion" : 
@@ -126,12 +139,27 @@
 					{
 						"string" : "3.3"
 					},
-					"parentIndex" : 6,
+					"parentIndex" : 7,
 					"projectIndex" : 0,
 					"source" : "exercises/exercise00",
 					"targetIndexes" : 
 					[
 						0
+					]
+				},
+				{
+					"build" : "exercises/exercise01",
+					"jsonFile" : "directory-exercises.exercise01-Debug-ac50e1515c50612ebbcd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 0,
+					"source" : "exercises/exercise01",
+					"targetIndexes" : 
+					[
+						1
 					]
 				}
 			],
@@ -150,14 +178,17 @@
 						2,
 						5,
 						6,
-						7
+						7,
+						8,
+						9
 					],
 					"name" : "ITU-graphics-programming",
 					"targetIndexes" : 
 					[
 						0,
 						1,
-						3
+						2,
+						4
 					]
 				},
 				{
@@ -170,18 +201,25 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						2,
-						4
+						3,
+						5
 					]
 				}
 			],
 			"targets" : 
 			[
 				{
-					"directoryIndex" : 7,
+					"directoryIndex" : 8,
 					"id" : "exercise00::@27deb5cbf0e88ef12d62",
-					"jsonFile" : "target-exercise00-Debug-bf859c871a71c5d4ce5e.json",
+					"jsonFile" : "target-exercise00-Debug-1e33069044f7e8b70bd6.json",
 					"name" : "exercise00",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "exercise01::@d0eafce78031fbabb6ed",
+					"jsonFile" : "target-exercise01-Debug-1e1aba91165e212f3813.json",
+					"name" : "exercise01",
 					"projectIndex" : 0
 				},
 				{
@@ -201,7 +239,7 @@
 				{
 					"directoryIndex" : 5,
 					"id" : "itugl::@6e4f4d1442f75f8f2949",
-					"jsonFile" : "target-itugl-Debug-dbc022e86411937fbab2.json",
+					"jsonFile" : "target-itugl-Debug-b323ae330a980484e66a.json",
 					"name" : "itugl",
 					"projectIndex" : 0
 				},

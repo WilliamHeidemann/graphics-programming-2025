@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/exercises
+# Install script for directory: C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,12 +35,5 @@ endif()
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "C:/Program Files/JetBrains/CLion 2024.2.1/bin/mingw/bin/objdump.exe")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug/exercises/exercise00/cmake_install.cmake")
-  include("C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug/exercises/exercise01/cmake_install.cmake")
-
 endif()
 

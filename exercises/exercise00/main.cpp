@@ -106,7 +106,7 @@ int main() {
 
         // render
         // ------
-        device.Clear(0.2f, 0.1f, 0.8f, 1.0f);
+        device.Clear(Color(0.2f, 0.3f, 0.3f, 1.0f));
 
         rotateVertices(vertices, verticesCount, -0.01f);
 
