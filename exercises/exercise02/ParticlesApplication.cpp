@@ -16,15 +16,19 @@ struct Particle
 {
     glm::vec2 position;
     float size;
+    float birth;
+    float duration;
     // (todo) 02.X: Add more vertex attributes
  
 };
 
 // List of attributes of the particle. Must match the structure above
-const std::array<VertexAttribute, 2> s_vertexAttributes =
+const std::array<VertexAttribute, 4> s_vertexAttributes =
 {
     VertexAttribute(Data::Type::Float, 2), // position
     VertexAttribute(Data::Type::Float, 1), // size
+    VertexAttribute(Data::Type::Float, 1), // birth
+    VertexAttribute(Data::Type::Float, 1) // duration
     // (todo) 02.X: Add more vertex attributes
 
 };
@@ -34,6 +38,7 @@ ParticlesApplication::ParticlesApplication()
     : Application(1024, 1024, "Particles demo")
     , m_particleCount(0)
     , m_particleCapacity(2048)  // You can change the capacity here to have more particles
+    , m_currentTimeUniform(0)
 {
 }
 
@@ -50,10 +55,14 @@ void ParticlesApplication::Initialize()
     GetDevice().EnableFeature(GL_PROGRAM_POINT_SIZE);
 
     // (todo) 02.3: Enable the GL_BLEND feature on the device
+    GetDevice().EnableFeature(GL_BLEND);
+    glBlendFunc(GL_SRC_ALPHA, GL_ONE);
 
 
     // We need to enable V-sync, otherwise the framerate would be too high and spawn multiple particles in one click
     GetDevice().SetVSyncEnabled(true);
+
+    m_currentTimeUniform = m_shaderProgram.GetUniformLocation("CurrentTime");
 }
 
 void ParticlesApplication::Update()
@@ -87,7 +96,7 @@ void ParticlesApplication::Render()
     m_shaderProgram.Use();
 
     // (todo) 02.4: Set CurrentTime uniform
-
+    m_shaderProgram.SetUniform(m_currentTimeUniform, GetCurrentTime());
 
     // (todo) 02.6: Set Gravity uniform
 
@@ -154,6 +163,8 @@ void ParticlesApplication::EmitParticle(const glm::vec2& position, const float s
     particle.position = position;
     // (todo) 02.X: Set the value for other attributes of the particle
     particle.size = size;
+    particle.birth = GetCurrentTime();
+    particle.duration = RandomRange(1.0f, 2.0f);
 
     // Get the index in the circular buffer
     unsigned int particleIndex = m_particleCount % m_particleCapacity;

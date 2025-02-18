@@ -52,4 +52,7 @@ private:
 
     // Max number of particles that can exist at the same time
     const unsigned int m_particleCapacity;
+
+    // Current time
+    ShaderProgram::Location m_currentTimeUniform;
 };
