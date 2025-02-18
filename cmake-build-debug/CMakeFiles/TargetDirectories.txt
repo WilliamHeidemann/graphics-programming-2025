@@ -77,3 +77,10 @@ C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programm
 C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug/exercises/exercise02/CMakeFiles/install.dir
 C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug/exercises/exercise02/CMakeFiles/install/local.dir
 C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug/exercises/exercise02/CMakeFiles/install/strip.dir
+C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug/exercises/exercise03/CMakeFiles/exercise03.dir
+C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug/exercises/exercise03/CMakeFiles/edit_cache.dir
+C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug/exercises/exercise03/CMakeFiles/rebuild_cache.dir
+C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug/exercises/exercise03/CMakeFiles/list_install_components.dir
+C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug/exercises/exercise03/CMakeFiles/install.dir
+C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug/exercises/exercise03/CMakeFiles/install/local.dir
+C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug/exercises/exercise03/CMakeFiles/install/strip.dir

@@ -304,6 +304,9 @@
 		},
 		{
 			"path" : "exercises/exercise02/CMakeLists.txt"
+		},
+		{
+			"path" : "exercises/exercise03/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
