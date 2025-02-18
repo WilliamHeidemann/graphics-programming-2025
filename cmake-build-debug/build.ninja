@@ -195,8 +195,6 @@ build libraries/glad/CMakeFiles/glad.dir/src/glad.c.obj: C_COMPILER__glad_unscan
   INCLUDES = -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glad/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/imgui/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glm/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/itugl/include"
   OBJECT_DIR = libraries\glad\CMakeFiles\glad.dir
   OBJECT_FILE_DIR = libraries\glad\CMakeFiles\glad.dir\src
-  TARGET_COMPILE_PDB = libraries\glad\CMakeFiles\glad.dir\glad.pdb
-  TARGET_PDB = libraries\glad\libglad.pdb
 
 
 # =============================================================================
@@ -211,9 +209,8 @@ build libraries/glad/libglad.a: C_STATIC_LIBRARY_LINKER__glad_Debug libraries/gl
   OBJECT_DIR = libraries\glad\CMakeFiles\glad.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = libraries\glad\CMakeFiles\glad.dir\glad.pdb
   TARGET_FILE = libraries\glad\libglad.a
-  TARGET_PDB = libraries\glad\libglad.pdb
+  TARGET_PDB = glad.a.dbg
 
 
 #############################################
@@ -384,8 +381,6 @@ build libraries/glfw/src/CMakeFiles/glfw.dir/context.c.obj: C_COMPILER__glfw_uns
   INCLUDES = -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glad/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/imgui/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glm/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/itugl/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/src" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug/libraries/glfw/src"
   OBJECT_DIR = libraries\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = libraries\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = libraries\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = libraries\glfw\src\libglfw3.pdb
 
 build libraries/glfw/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/src/init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -394,8 +389,6 @@ build libraries/glfw/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_unscan
   INCLUDES = -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glad/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/imgui/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glm/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/itugl/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/src" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug/libraries/glfw/src"
   OBJECT_DIR = libraries\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = libraries\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = libraries\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = libraries\glfw\src\libglfw3.pdb
 
 build libraries/glfw/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/src/input.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -404,8 +397,6 @@ build libraries/glfw/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_unsca
   INCLUDES = -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glad/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/imgui/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glm/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/itugl/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/src" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug/libraries/glfw/src"
   OBJECT_DIR = libraries\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = libraries\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = libraries\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = libraries\glfw\src\libglfw3.pdb
 
 build libraries/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/src/monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -414,8 +405,6 @@ build libraries/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_uns
   INCLUDES = -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glad/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/imgui/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glm/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/itugl/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/src" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug/libraries/glfw/src"
   OBJECT_DIR = libraries\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = libraries\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = libraries\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = libraries\glfw\src\libglfw3.pdb
 
 build libraries/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/src/vulkan.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -424,8 +413,6 @@ build libraries/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_unsc
   INCLUDES = -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glad/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/imgui/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glm/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/itugl/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/src" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug/libraries/glfw/src"
   OBJECT_DIR = libraries\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = libraries\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = libraries\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = libraries\glfw\src\libglfw3.pdb
 
 build libraries/glfw/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/src/window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -434,8 +421,6 @@ build libraries/glfw/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_unsc
   INCLUDES = -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glad/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/imgui/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glm/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/itugl/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/src" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug/libraries/glfw/src"
   OBJECT_DIR = libraries\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = libraries\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = libraries\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = libraries\glfw\src\libglfw3.pdb
 
 build libraries/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/src/win32_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -444,8 +429,6 @@ build libraries/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glfw_
   INCLUDES = -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glad/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/imgui/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glm/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/itugl/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/src" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug/libraries/glfw/src"
   OBJECT_DIR = libraries\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = libraries\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = libraries\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = libraries\glfw\src\libglfw3.pdb
 
 build libraries/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/src/win32_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -454,8 +437,6 @@ build libraries/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER__g
   INCLUDES = -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glad/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/imgui/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glm/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/itugl/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/src" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug/libraries/glfw/src"
   OBJECT_DIR = libraries\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = libraries\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = libraries\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = libraries\glfw\src\libglfw3.pdb
 
 build libraries/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/src/win32_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -464,8 +445,6 @@ build libraries/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__gl
   INCLUDES = -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glad/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/imgui/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glm/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/itugl/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/src" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug/libraries/glfw/src"
   OBJECT_DIR = libraries\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = libraries\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = libraries\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = libraries\glfw\src\libglfw3.pdb
 
 build libraries/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/src/win32_time.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -474,8 +453,6 @@ build libraries/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glfw_
   INCLUDES = -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glad/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/imgui/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glm/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/itugl/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/src" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug/libraries/glfw/src"
   OBJECT_DIR = libraries\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = libraries\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = libraries\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = libraries\glfw\src\libglfw3.pdb
 
 build libraries/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/src/win32_thread.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -484,8 +461,6 @@ build libraries/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILER__glf
   INCLUDES = -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glad/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/imgui/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glm/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/itugl/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/src" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug/libraries/glfw/src"
   OBJECT_DIR = libraries\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = libraries\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = libraries\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = libraries\glfw\src\libglfw3.pdb
 
 build libraries/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/src/win32_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -494,8 +469,6 @@ build libraries/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__glf
   INCLUDES = -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glad/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/imgui/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glm/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/itugl/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/src" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug/libraries/glfw/src"
   OBJECT_DIR = libraries\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = libraries\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = libraries\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = libraries\glfw\src\libglfw3.pdb
 
 build libraries/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/src/wgl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -504,8 +477,6 @@ build libraries/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw
   INCLUDES = -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glad/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/imgui/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glm/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/itugl/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/src" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug/libraries/glfw/src"
   OBJECT_DIR = libraries\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = libraries\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = libraries\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = libraries\glfw\src\libglfw3.pdb
 
 build libraries/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/src/egl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -514,8 +485,6 @@ build libraries/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__glfw
   INCLUDES = -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glad/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/imgui/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glm/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/itugl/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/src" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug/libraries/glfw/src"
   OBJECT_DIR = libraries\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = libraries\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = libraries\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = libraries\glfw\src\libglfw3.pdb
 
 build libraries/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/src/osmesa_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -524,8 +493,6 @@ build libraries/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPILER__g
   INCLUDES = -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glad/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/imgui/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glm/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/itugl/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/src" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug/libraries/glfw/src"
   OBJECT_DIR = libraries\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = libraries\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = libraries\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = libraries\glfw\src\libglfw3.pdb
 
 
 # =============================================================================
@@ -540,9 +507,8 @@ build libraries/glfw/src/libglfw3.a: C_STATIC_LIBRARY_LINKER__glfw_Debug librari
   OBJECT_DIR = libraries\glfw\src\CMakeFiles\glfw.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = libraries\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_FILE = libraries\glfw\src\libglfw3.a
-  TARGET_PDB = libraries\glfw\src\libglfw3.pdb
+  TARGET_PDB = glfw3.a.dbg
 
 
 #############################################
@@ -614,6 +580,76 @@ build libraries/glfw/src/install/strip: phony libraries/glfw/src/CMakeFiles/inst
 # C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/CMakeLists.txt
 # =============================================================================
 
+
+#############################################
+# Utility command for edit_cache
+
+build libraries/glm/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\dkWiSkHe\OneDrive - LEGO\Desktop\Graphics Programming\graphics-programming-2025\cmake-build-debug\libraries\glm" && "C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build libraries/glm/edit_cache: phony libraries/glm/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build libraries/glm/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\dkWiSkHe\OneDrive - LEGO\Desktop\Graphics Programming\graphics-programming-2025\cmake-build-debug\libraries\glm" && "C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\dkWiSkHe\OneDrive - LEGO\Desktop\Graphics Programming\graphics-programming-2025" -B"C:\Users\dkWiSkHe\OneDrive - LEGO\Desktop\Graphics Programming\graphics-programming-2025\cmake-build-debug""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build libraries/glm/rebuild_cache: phony libraries/glm/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build libraries/glm/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build libraries/glm/CMakeFiles/install.util: CUSTOM_COMMAND libraries/glm/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\dkWiSkHe\OneDrive - LEGO\Desktop\Graphics Programming\graphics-programming-2025\cmake-build-debug\libraries\glm" && "C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build libraries/glm/install: phony libraries/glm/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build libraries/glm/CMakeFiles/install/local.util: CUSTOM_COMMAND libraries/glm/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\dkWiSkHe\OneDrive - LEGO\Desktop\Graphics Programming\graphics-programming-2025\cmake-build-debug\libraries\glm" && "C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build libraries/glm/install/local: phony libraries/glm/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build libraries/glm/CMakeFiles/install/strip.util: CUSTOM_COMMAND libraries/glm/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\dkWiSkHe\OneDrive - LEGO\Desktop\Graphics Programming\graphics-programming-2025\cmake-build-debug\libraries\glm" && "C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build libraries/glm/install/strip: phony libraries/glm/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/CMakeLists.txt
+# =============================================================================
+
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target itugl
 
@@ -629,8 +665,6 @@ build libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/application/Application.cpp
   INCLUDES = -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glad/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/imgui/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glm/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/itugl/include"
   OBJECT_DIR = libraries\itugl\CMakeFiles\itugl.dir
   OBJECT_FILE_DIR = libraries\itugl\CMakeFiles\itugl.dir\src\ituGL\application
-  TARGET_COMPILE_PDB = libraries\itugl\CMakeFiles\itugl.dir\itugl.pdb
-  TARGET_PDB = libraries\itugl\libitugl.pdb
 
 build libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/application/Window.cpp.obj: CXX_COMPILER__itugl_unscanned_Debug C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/itugl/src/ituGL/application/Window.cpp || cmake_object_order_depends_target_itugl
   DEP_FILE = libraries\itugl\CMakeFiles\itugl.dir\src\ituGL\application\Window.cpp.obj.d
@@ -638,8 +672,6 @@ build libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/application/Window.cpp.obj:
   INCLUDES = -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glad/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/imgui/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glm/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/itugl/include"
   OBJECT_DIR = libraries\itugl\CMakeFiles\itugl.dir
   OBJECT_FILE_DIR = libraries\itugl\CMakeFiles\itugl.dir\src\ituGL\application
-  TARGET_COMPILE_PDB = libraries\itugl\CMakeFiles\itugl.dir\itugl.pdb
-  TARGET_PDB = libraries\itugl\libitugl.pdb
 
 build libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/core/BufferObject.cpp.obj: CXX_COMPILER__itugl_unscanned_Debug C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/itugl/src/ituGL/core/BufferObject.cpp || cmake_object_order_depends_target_itugl
   DEP_FILE = libraries\itugl\CMakeFiles\itugl.dir\src\ituGL\core\BufferObject.cpp.obj.d
@@ -647,8 +679,6 @@ build libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/core/BufferObject.cpp.obj: 
   INCLUDES = -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glad/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/imgui/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glm/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/itugl/include"
   OBJECT_DIR = libraries\itugl\CMakeFiles\itugl.dir
   OBJECT_FILE_DIR = libraries\itugl\CMakeFiles\itugl.dir\src\ituGL\core
-  TARGET_COMPILE_PDB = libraries\itugl\CMakeFiles\itugl.dir\itugl.pdb
-  TARGET_PDB = libraries\itugl\libitugl.pdb
 
 build libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/core/Color.cpp.obj: CXX_COMPILER__itugl_unscanned_Debug C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/itugl/src/ituGL/core/Color.cpp || cmake_object_order_depends_target_itugl
   DEP_FILE = libraries\itugl\CMakeFiles\itugl.dir\src\ituGL\core\Color.cpp.obj.d
@@ -656,8 +686,6 @@ build libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/core/Color.cpp.obj: CXX_COM
   INCLUDES = -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glad/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/imgui/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glm/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/itugl/include"
   OBJECT_DIR = libraries\itugl\CMakeFiles\itugl.dir
   OBJECT_FILE_DIR = libraries\itugl\CMakeFiles\itugl.dir\src\ituGL\core
-  TARGET_COMPILE_PDB = libraries\itugl\CMakeFiles\itugl.dir\itugl.pdb
-  TARGET_PDB = libraries\itugl\libitugl.pdb
 
 build libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/core/Data.cpp.obj: CXX_COMPILER__itugl_unscanned_Debug C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/itugl/src/ituGL/core/Data.cpp || cmake_object_order_depends_target_itugl
   DEP_FILE = libraries\itugl\CMakeFiles\itugl.dir\src\ituGL\core\Data.cpp.obj.d
@@ -665,8 +693,6 @@ build libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/core/Data.cpp.obj: CXX_COMP
   INCLUDES = -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glad/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/imgui/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glm/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/itugl/include"
   OBJECT_DIR = libraries\itugl\CMakeFiles\itugl.dir
   OBJECT_FILE_DIR = libraries\itugl\CMakeFiles\itugl.dir\src\ituGL\core
-  TARGET_COMPILE_PDB = libraries\itugl\CMakeFiles\itugl.dir\itugl.pdb
-  TARGET_PDB = libraries\itugl\libitugl.pdb
 
 build libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/core/DeviceGL.cpp.obj: CXX_COMPILER__itugl_unscanned_Debug C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/itugl/src/ituGL/core/DeviceGL.cpp || cmake_object_order_depends_target_itugl
   DEP_FILE = libraries\itugl\CMakeFiles\itugl.dir\src\ituGL\core\DeviceGL.cpp.obj.d
@@ -674,8 +700,6 @@ build libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/core/DeviceGL.cpp.obj: CXX_
   INCLUDES = -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glad/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/imgui/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glm/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/itugl/include"
   OBJECT_DIR = libraries\itugl\CMakeFiles\itugl.dir
   OBJECT_FILE_DIR = libraries\itugl\CMakeFiles\itugl.dir\src\ituGL\core
-  TARGET_COMPILE_PDB = libraries\itugl\CMakeFiles\itugl.dir\itugl.pdb
-  TARGET_PDB = libraries\itugl\libitugl.pdb
 
 build libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/core/Object.cpp.obj: CXX_COMPILER__itugl_unscanned_Debug C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/itugl/src/ituGL/core/Object.cpp || cmake_object_order_depends_target_itugl
   DEP_FILE = libraries\itugl\CMakeFiles\itugl.dir\src\ituGL\core\Object.cpp.obj.d
@@ -683,8 +707,6 @@ build libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/core/Object.cpp.obj: CXX_CO
   INCLUDES = -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glad/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/imgui/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glm/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/itugl/include"
   OBJECT_DIR = libraries\itugl\CMakeFiles\itugl.dir
   OBJECT_FILE_DIR = libraries\itugl\CMakeFiles\itugl.dir\src\ituGL\core
-  TARGET_COMPILE_PDB = libraries\itugl\CMakeFiles\itugl.dir\itugl.pdb
-  TARGET_PDB = libraries\itugl\libitugl.pdb
 
 build libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/geometry/ElementBufferObject.cpp.obj: CXX_COMPILER__itugl_unscanned_Debug C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/itugl/src/ituGL/geometry/ElementBufferObject.cpp || cmake_object_order_depends_target_itugl
   DEP_FILE = libraries\itugl\CMakeFiles\itugl.dir\src\ituGL\geometry\ElementBufferObject.cpp.obj.d
@@ -692,8 +714,6 @@ build libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/geometry/ElementBufferObjec
   INCLUDES = -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glad/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/imgui/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glm/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/itugl/include"
   OBJECT_DIR = libraries\itugl\CMakeFiles\itugl.dir
   OBJECT_FILE_DIR = libraries\itugl\CMakeFiles\itugl.dir\src\ituGL\geometry
-  TARGET_COMPILE_PDB = libraries\itugl\CMakeFiles\itugl.dir\itugl.pdb
-  TARGET_PDB = libraries\itugl\libitugl.pdb
 
 build libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/geometry/VertexArrayObject.cpp.obj: CXX_COMPILER__itugl_unscanned_Debug C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/itugl/src/ituGL/geometry/VertexArrayObject.cpp || cmake_object_order_depends_target_itugl
   DEP_FILE = libraries\itugl\CMakeFiles\itugl.dir\src\ituGL\geometry\VertexArrayObject.cpp.obj.d
@@ -701,8 +721,6 @@ build libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/geometry/VertexArrayObject.
   INCLUDES = -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glad/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/imgui/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glm/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/itugl/include"
   OBJECT_DIR = libraries\itugl\CMakeFiles\itugl.dir
   OBJECT_FILE_DIR = libraries\itugl\CMakeFiles\itugl.dir\src\ituGL\geometry
-  TARGET_COMPILE_PDB = libraries\itugl\CMakeFiles\itugl.dir\itugl.pdb
-  TARGET_PDB = libraries\itugl\libitugl.pdb
 
 build libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/geometry/VertexAttribute.cpp.obj: CXX_COMPILER__itugl_unscanned_Debug C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/itugl/src/ituGL/geometry/VertexAttribute.cpp || cmake_object_order_depends_target_itugl
   DEP_FILE = libraries\itugl\CMakeFiles\itugl.dir\src\ituGL\geometry\VertexAttribute.cpp.obj.d
@@ -710,8 +728,6 @@ build libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/geometry/VertexAttribute.cp
   INCLUDES = -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glad/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/imgui/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glm/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/itugl/include"
   OBJECT_DIR = libraries\itugl\CMakeFiles\itugl.dir
   OBJECT_FILE_DIR = libraries\itugl\CMakeFiles\itugl.dir\src\ituGL\geometry
-  TARGET_COMPILE_PDB = libraries\itugl\CMakeFiles\itugl.dir\itugl.pdb
-  TARGET_PDB = libraries\itugl\libitugl.pdb
 
 build libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/geometry/VertexBufferObject.cpp.obj: CXX_COMPILER__itugl_unscanned_Debug C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/itugl/src/ituGL/geometry/VertexBufferObject.cpp || cmake_object_order_depends_target_itugl
   DEP_FILE = libraries\itugl\CMakeFiles\itugl.dir\src\ituGL\geometry\VertexBufferObject.cpp.obj.d
@@ -719,8 +735,20 @@ build libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/geometry/VertexBufferObject
   INCLUDES = -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glad/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/imgui/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glm/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/itugl/include"
   OBJECT_DIR = libraries\itugl\CMakeFiles\itugl.dir
   OBJECT_FILE_DIR = libraries\itugl\CMakeFiles\itugl.dir\src\ituGL\geometry
-  TARGET_COMPILE_PDB = libraries\itugl\CMakeFiles\itugl.dir\itugl.pdb
-  TARGET_PDB = libraries\itugl\libitugl.pdb
+
+build libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/shader/Shader.cpp.obj: CXX_COMPILER__itugl_unscanned_Debug C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/itugl/src/ituGL/shader/Shader.cpp || cmake_object_order_depends_target_itugl
+  DEP_FILE = libraries\itugl\CMakeFiles\itugl.dir\src\ituGL\shader\Shader.cpp.obj.d
+  FLAGS = -g -std=c++20 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glad/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/imgui/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glm/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/itugl/include"
+  OBJECT_DIR = libraries\itugl\CMakeFiles\itugl.dir
+  OBJECT_FILE_DIR = libraries\itugl\CMakeFiles\itugl.dir\src\ituGL\shader
+
+build libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/shader/ShaderProgram.cpp.obj: CXX_COMPILER__itugl_unscanned_Debug C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/itugl/src/ituGL/shader/ShaderProgram.cpp || cmake_object_order_depends_target_itugl
+  DEP_FILE = libraries\itugl\CMakeFiles\itugl.dir\src\ituGL\shader\ShaderProgram.cpp.obj.d
+  FLAGS = -g -std=c++20 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glad/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/imgui/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glm/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/itugl/include"
+  OBJECT_DIR = libraries\itugl\CMakeFiles\itugl.dir
+  OBJECT_FILE_DIR = libraries\itugl\CMakeFiles\itugl.dir\src\ituGL\shader
 
 
 # =============================================================================
@@ -730,14 +758,13 @@ build libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/geometry/VertexBufferObject
 #############################################
 # Link the static library libraries\itugl\libitugl.a
 
-build libraries/itugl/libitugl.a: CXX_STATIC_LIBRARY_LINKER__itugl_Debug libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/application/Application.cpp.obj libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/application/Window.cpp.obj libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/core/BufferObject.cpp.obj libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/core/Color.cpp.obj libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/core/Data.cpp.obj libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/core/DeviceGL.cpp.obj libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/core/Object.cpp.obj libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/geometry/ElementBufferObject.cpp.obj libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/geometry/VertexArrayObject.cpp.obj libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/geometry/VertexAttribute.cpp.obj libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/geometry/VertexBufferObject.cpp.obj
+build libraries/itugl/libitugl.a: CXX_STATIC_LIBRARY_LINKER__itugl_Debug libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/application/Application.cpp.obj libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/application/Window.cpp.obj libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/core/BufferObject.cpp.obj libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/core/Color.cpp.obj libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/core/Data.cpp.obj libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/core/DeviceGL.cpp.obj libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/core/Object.cpp.obj libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/geometry/ElementBufferObject.cpp.obj libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/geometry/VertexArrayObject.cpp.obj libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/geometry/VertexAttribute.cpp.obj libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/geometry/VertexBufferObject.cpp.obj libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/shader/Shader.cpp.obj libraries/itugl/CMakeFiles/itugl.dir/src/ituGL/shader/ShaderProgram.cpp.obj
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = libraries\itugl\CMakeFiles\itugl.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = libraries\itugl\CMakeFiles\itugl.dir\itugl.pdb
   TARGET_FILE = libraries\itugl\libitugl.a
-  TARGET_PDB = libraries\itugl\libitugl.pdb
+  TARGET_PDB = itugl.a.dbg
 
 
 #############################################
@@ -964,8 +991,6 @@ build exercises/exercise00/CMakeFiles/exercise00.dir/main.cpp.obj: CXX_COMPILER_
   INCLUDES = -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glad/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/imgui/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glm/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/itugl/include"
   OBJECT_DIR = exercises\exercise00\CMakeFiles\exercise00.dir
   OBJECT_FILE_DIR = exercises\exercise00\CMakeFiles\exercise00.dir
-  TARGET_COMPILE_PDB = exercises\exercise00\CMakeFiles\exercise00.dir\
-  TARGET_PDB = exercises\exercise00\exercise00.pdb
 
 
 # =============================================================================
@@ -981,10 +1006,9 @@ build exercises/exercise00/exercise00.exe: CXX_EXECUTABLE_LINKER__exercise00_Deb
   OBJECT_DIR = exercises\exercise00\CMakeFiles\exercise00.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = exercises\exercise00\CMakeFiles\exercise00.dir\
   TARGET_FILE = exercises\exercise00\exercise00.exe
   TARGET_IMPLIB = exercises\exercise00\libexercise00.dll.a
-  TARGET_PDB = exercises\exercise00\exercise00.pdb
+  TARGET_PDB = exercise00.exe.dbg
 
 
 #############################################
@@ -1071,8 +1095,6 @@ build exercises/exercise01/CMakeFiles/exercise01.dir/TerrainApplication.cpp.obj:
   INCLUDES = -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glad/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/imgui/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glm/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/itugl/include"
   OBJECT_DIR = exercises\exercise01\CMakeFiles\exercise01.dir
   OBJECT_FILE_DIR = exercises\exercise01\CMakeFiles\exercise01.dir
-  TARGET_COMPILE_PDB = exercises\exercise01\CMakeFiles\exercise01.dir\
-  TARGET_PDB = exercises\exercise01\exercise01.pdb
 
 build exercises/exercise01/CMakeFiles/exercise01.dir/main.cpp.obj: CXX_COMPILER__exercise01_unscanned_Debug C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/exercises/exercise01/main.cpp || cmake_object_order_depends_target_exercise01
   DEP_FILE = exercises\exercise01\CMakeFiles\exercise01.dir\main.cpp.obj.d
@@ -1080,8 +1102,6 @@ build exercises/exercise01/CMakeFiles/exercise01.dir/main.cpp.obj: CXX_COMPILER_
   INCLUDES = -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glad/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/imgui/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glm/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/itugl/include"
   OBJECT_DIR = exercises\exercise01\CMakeFiles\exercise01.dir
   OBJECT_FILE_DIR = exercises\exercise01\CMakeFiles\exercise01.dir
-  TARGET_COMPILE_PDB = exercises\exercise01\CMakeFiles\exercise01.dir\
-  TARGET_PDB = exercises\exercise01\exercise01.pdb
 
 
 # =============================================================================
@@ -1097,10 +1117,9 @@ build exercises/exercise01/exercise01.exe: CXX_EXECUTABLE_LINKER__exercise01_Deb
   OBJECT_DIR = exercises\exercise01\CMakeFiles\exercise01.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = exercises\exercise01\CMakeFiles\exercise01.dir\
   TARGET_FILE = exercises\exercise01\exercise01.exe
   TARGET_IMPLIB = exercises\exercise01\libexercise01.dll.a
-  TARGET_PDB = exercises\exercise01\exercise01.pdb
+  TARGET_PDB = exercise01.exe.dbg
 
 
 #############################################
@@ -1168,6 +1187,117 @@ build exercises/exercise01/CMakeFiles/install/strip.util: CUSTOM_COMMAND exercis
 build exercises/exercise01/install/strip: phony exercises/exercise01/CMakeFiles/install/strip.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/exercises/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise02
+
+
+#############################################
+# Order-only phony target for exercise02
+
+build cmake_object_order_depends_target_exercise02: phony || cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw cmake_object_order_depends_target_itugl
+
+build exercises/exercise02/CMakeFiles/exercise02.dir/ParticlesApplication.cpp.obj: CXX_COMPILER__exercise02_unscanned_Debug C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/exercises/exercise02/ParticlesApplication.cpp || cmake_object_order_depends_target_exercise02
+  DEP_FILE = exercises\exercise02\CMakeFiles\exercise02.dir\ParticlesApplication.cpp.obj.d
+  FLAGS = -g -std=c++20 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glad/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/imgui/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glm/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/itugl/include"
+  OBJECT_DIR = exercises\exercise02\CMakeFiles\exercise02.dir
+  OBJECT_FILE_DIR = exercises\exercise02\CMakeFiles\exercise02.dir
+
+build exercises/exercise02/CMakeFiles/exercise02.dir/main.cpp.obj: CXX_COMPILER__exercise02_unscanned_Debug C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/exercises/exercise02/main.cpp || cmake_object_order_depends_target_exercise02
+  DEP_FILE = exercises\exercise02\CMakeFiles\exercise02.dir\main.cpp.obj.d
+  FLAGS = -g -std=c++20 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glad/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glfw/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/imgui/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/glm/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/stb/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp/include" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/assimp" -I"C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/libraries/itugl/include"
+  OBJECT_DIR = exercises\exercise02\CMakeFiles\exercise02.dir
+  OBJECT_FILE_DIR = exercises\exercise02\CMakeFiles\exercise02.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise02
+
+
+#############################################
+# Link the executable exercises\exercise02\exercise02.exe
+
+build exercises/exercise02/exercise02.exe: CXX_EXECUTABLE_LINKER__exercise02_Debug exercises/exercise02/CMakeFiles/exercise02.dir/ParticlesApplication.cpp.obj exercises/exercise02/CMakeFiles/exercise02.dir/main.cpp.obj | libraries/glad/libglad.a libraries/glfw/src/libglfw3.a libraries/itugl/libitugl.a || libraries/glad/libglad.a libraries/glfw/src/libglfw3.a libraries/itugl/libitugl.a
+  FLAGS = -g
+  LINK_LIBRARIES = libraries/glad/libglad.a  libraries/glfw/src/libglfw3.a  libraries/itugl/libitugl.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = exercises\exercise02\CMakeFiles\exercise02.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exercises\exercise02\exercise02.exe
+  TARGET_IMPLIB = exercises\exercise02\libexercise02.dll.a
+  TARGET_PDB = exercise02.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build exercises/exercise02/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\dkWiSkHe\OneDrive - LEGO\Desktop\Graphics Programming\graphics-programming-2025\cmake-build-debug\exercises\exercise02" && "C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build exercises/exercise02/edit_cache: phony exercises/exercise02/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build exercises/exercise02/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\dkWiSkHe\OneDrive - LEGO\Desktop\Graphics Programming\graphics-programming-2025\cmake-build-debug\exercises\exercise02" && "C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\dkWiSkHe\OneDrive - LEGO\Desktop\Graphics Programming\graphics-programming-2025" -B"C:\Users\dkWiSkHe\OneDrive - LEGO\Desktop\Graphics Programming\graphics-programming-2025\cmake-build-debug""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build exercises/exercise02/rebuild_cache: phony exercises/exercise02/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build exercises/exercise02/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build exercises/exercise02/CMakeFiles/install.util: CUSTOM_COMMAND exercises/exercise02/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\dkWiSkHe\OneDrive - LEGO\Desktop\Graphics Programming\graphics-programming-2025\cmake-build-debug\exercises\exercise02" && "C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build exercises/exercise02/install: phony exercises/exercise02/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build exercises/exercise02/CMakeFiles/install/local.util: CUSTOM_COMMAND exercises/exercise02/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\dkWiSkHe\OneDrive - LEGO\Desktop\Graphics Programming\graphics-programming-2025\cmake-build-debug\exercises\exercise02" && "C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build exercises/exercise02/install/local: phony exercises/exercise02/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build exercises/exercise02/CMakeFiles/install/strip.util: CUSTOM_COMMAND exercises/exercise02/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\dkWiSkHe\OneDrive - LEGO\Desktop\Graphics Programming\graphics-programming-2025\cmake-build-debug\exercises\exercise02" && "C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build exercises/exercise02/install/strip: phony exercises/exercise02/CMakeFiles/install/strip.util
+
+# =============================================================================
 # Target aliases.
 
 build exercise00: phony exercises/exercise00/exercise00.exe
@@ -1177,6 +1307,10 @@ build exercise00.exe: phony exercises/exercise00/exercise00.exe
 build exercise01: phony exercises/exercise01/exercise01.exe
 
 build exercise01.exe: phony exercises/exercise01/exercise01.exe
+
+build exercise02: phony exercises/exercise02/exercise02.exe
+
+build exercise02.exe: phony exercises/exercise02/exercise02.exe
 
 build glad: phony libraries/glad/libglad.a
 
@@ -1207,7 +1341,7 @@ build all: phony libraries/all exercises/all
 #############################################
 # Folder: C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug/exercises
 
-build exercises/all: phony exercises/exercise00/all exercises/exercise01/all
+build exercises/all: phony exercises/exercise00/all exercises/exercise01/all exercises/exercise02/all
 
 # =============================================================================
 
@@ -1226,9 +1360,16 @@ build exercises/exercise01/all: phony exercises/exercise01/exercise01.exe
 # =============================================================================
 
 #############################################
+# Folder: C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug/exercises/exercise02
+
+build exercises/exercise02/all: phony exercises/exercise02/exercise02.exe
+
+# =============================================================================
+
+#############################################
 # Folder: C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug/libraries
 
-build libraries/all: phony libraries/glad/all libraries/glfw/all libraries/itugl/all libraries/stb/all
+build libraries/all: phony libraries/glad/all libraries/glfw/all libraries/glm/all libraries/itugl/all libraries/stb/all
 
 # =============================================================================
 
@@ -1254,6 +1395,13 @@ build libraries/glfw/src/all: phony libraries/glfw/src/libglfw3.a
 # =============================================================================
 
 #############################################
+# Folder: C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug/libraries/glm
+
+build libraries/glm/all: phony
+
+# =============================================================================
+
+#############################################
 # Folder: C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug/libraries/itugl
 
 build libraries/itugl/all: phony libraries/itugl/libitugl.a
@@ -1272,14 +1420,14 @@ build libraries/stb/all: phony
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystem.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckLibraryExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindDoxygen.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindThreads.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/exercises/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/exercises/exercise00/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/exercises/exercise01/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glad/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/cmake_uninstall.cmake.in C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/src/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/src/glfw3.pc.in C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/src/glfw3Config.cmake.in C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/src/glfw_config.h.in C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/itugl/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/stb/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckLibraryExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindDoxygen.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindThreads.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/exercises/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/exercises/exercise00/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/exercises/exercise01/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/exercises/exercise02/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glad/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/cmake_uninstall.cmake.in C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/src/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/src/glfw3.pc.in C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/src/glfw3Config.cmake.in C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/src/glfw_config.h.in C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glm/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/itugl/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/stb/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystem.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckLibraryExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindDoxygen.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindThreads.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/exercises/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/exercises/exercise00/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/exercises/exercise01/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glad/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/cmake_uninstall.cmake.in C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/src/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/src/glfw3.pc.in C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/src/glfw3Config.cmake.in C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/src/glfw_config.h.in C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/itugl/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/stb/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake: phony
+build C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckLibraryExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindDoxygen.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindThreads.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/exercises/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/exercises/exercise00/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/exercises/exercise01/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/exercises/exercise02/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glad/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/cmake_uninstall.cmake.in C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/src/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/src/glfw3.pc.in C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/src/glfw3Config.cmake.in C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glfw/src/glfw_config.h.in C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/glm/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/itugl/CMakeLists.txt C$:/Users/dkWiSkHe/OneDrive$ -$ LEGO/Desktop/Graphics$ Programming/graphics-programming-2025/libraries/stb/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake: phony
 
 
 #############################################
