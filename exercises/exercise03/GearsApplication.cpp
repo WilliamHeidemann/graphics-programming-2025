@@ -58,13 +58,19 @@ void GearsApplication::Render()
     DrawGear(m_largeGear, rotationMatrix, Color(60.0f / 256.0f, 80.0f / 256.0f, 195.0f / 256.0f));
 
     // (todo) 03.2: Draw medium gear to the right
-    glm::mat4 translationMatrix = translate(glm::vec3(0.75f, 0.0f, 0.0f));
-    constexpr float rotationSpeed = 2.0f;
-    glm::mat4 mediumRotationMatrix = rotate(GetCurrentTime() * rotationSpeed, glm::vec3(0, 0.0f, 1.0f));
-    DrawGear(m_mediumGear, translationMatrix * mediumRotationMatrix, Color(195.0f / 256.0f, 60.0f / 256.0f, 80.0f / 256.0f));
+    glm::mat4 mediumTranslationMatrix = translate(glm::vec3(0.75f, 0.0f, 0.0f));
+    constexpr float mediumRotationSpeed = 2.0f;
+    glm::mat4 mediumRotationMatrix = rotate(GetCurrentTime() * mediumRotationSpeed, glm::vec3(0, 0.0f, 1.0f));
+    DrawGear(m_mediumGear, mediumTranslationMatrix * mediumRotationMatrix, Color(195.0f / 256.0f, 60.0f / 256.0f, 80.0f / 256.0f));
 
 
     // (todo) 03.3: Draw small gear at the top-left corner
+    glm::mat4 smallTranslationMatrix = translate(glm::vec3(-1.0f, 1.0f, 0.0f));
+    glm::mat4 scaleMatrix = scale(glm::vec3(7.5f));
+    constexpr float smallRotationSpeed = 0.535f;
+    constexpr float offset = 138.375;
+    glm::mat4 smallRotationMatrix = rotate(GetCurrentTime() * smallRotationSpeed + offset, glm::vec3(0, 0.0f, 1.0f));
+    DrawGear(m_smallGear, smallTranslationMatrix * scaleMatrix * smallRotationMatrix, Color(26.0f / 256.0f, 237.0f / 256.0f, 124.0f / 256.0f));
 
 
     // (todo) 03.4: Draw small gear linked to the center gear
