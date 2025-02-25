@@ -53,7 +53,6 @@ void GearsApplication::Render()
 
 
     // (todo) 03.1: Draw large gear at the center
-    glm::mat4 identityMatrix(1.0f);
     glm::mat4 rotationMatrix = rotate(GetCurrentTime(), glm::vec3(0.0f, 0.0f, -1.0f));
     DrawGear(m_largeGear, rotationMatrix, Color(60.0f / 256.0f, 80.0f / 256.0f, 195.0f / 256.0f));
 
@@ -74,7 +73,9 @@ void GearsApplication::Render()
 
 
     // (todo) 03.4: Draw small gear linked to the center gear
-
+    glm::mat4 translationMatrix = translate(glm::vec3(0.0f, 0.2f, 0.0f));
+    glm::mat4 relativeTranslationMatrix = rotationMatrix * translationMatrix * inverse(rotationMatrix);
+    DrawGear(m_smallGear, relativeTranslationMatrix, Color(240.0f / 256.0f, 168.0f / 256.0f, 88.0f / 256.0f));
 
     Application::Render();
 }
