@@ -17,6 +17,6 @@ CMake Deprecation Warning at libraries/glfw/CMakeLists.txt:1 (cmake_minimum_requ
 
 -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
 -- Using Win32 for window creation
--- Configuring done (0.7s)
+-- Configuring done (0.3s)
 -- Generating done (0.2s)
 -- Build files have been written to: C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug

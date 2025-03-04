@@ -1,0 +1,430 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						10
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "libraries",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libraries-Debug-d3d29cb4a9ce453e99dd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libraries"
+				},
+				{
+					"build" : "libraries/assimp",
+					"jsonFile" : "directory-libraries.assimp-Debug-8d2cabdd7df414e002b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "libraries/assimp",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "libraries/glad",
+					"jsonFile" : "directory-libraries.glad-Debug-78984def022422812d0b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "libraries/glad",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "libraries/glfw",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libraries.glfw-Debug-6eb11cf4dec1788a6670.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "libraries/glfw",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "libraries/glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libraries.glfw.src-Debug-9cd0780f57bbe15e28e3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "libraries/glfw/src",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "libraries/glm",
+					"jsonFile" : "directory-libraries.glm-Debug-fe2956ee3a4f541bcd76.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "libraries/glm"
+				},
+				{
+					"build" : "libraries/imgui",
+					"jsonFile" : "directory-libraries.imgui-Debug-5c07dcadafc34ce16a3d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "libraries/imgui",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "libraries/itugl",
+					"jsonFile" : "directory-libraries.itugl-Debug-9ff3ee3355be20702ba2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "libraries/itugl",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "libraries/stb",
+					"jsonFile" : "directory-libraries.stb-Debug-25dcd7e467bbd05a116f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "libraries/stb"
+				},
+				{
+					"build" : "exercises",
+					"childIndexes" : 
+					[
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					],
+					"jsonFile" : "directory-exercises-Debug-789516e9c46f9079ee7f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "exercises"
+				},
+				{
+					"build" : "exercises/exercise00",
+					"jsonFile" : "directory-exercises.exercise00-Debug-417b57739bed357a3e13.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 0,
+					"source" : "exercises/exercise00",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "exercises/exercise01",
+					"jsonFile" : "directory-exercises.exercise01-Debug-ac50e1515c50612ebbcd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 0,
+					"source" : "exercises/exercise01",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "exercises/exercise02",
+					"jsonFile" : "directory-exercises.exercise02-Debug-5888595d0ebc755942fc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 0,
+					"source" : "exercises/exercise02",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "exercises/exercise03",
+					"jsonFile" : "directory-exercises.exercise03-Debug-9ecaf6e25c90c0c06a0b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 0,
+					"source" : "exercises/exercise03",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "exercises/exercise04",
+					"jsonFile" : "directory-exercises.exercise04-Debug-37fd95fc986ede52f8fb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 0,
+					"source" : "exercises/exercise04",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "exercises/exercise05",
+					"jsonFile" : "directory-exercises.exercise05-Debug-95363bc17e38a7f55850.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 0,
+					"source" : "exercises/exercise05",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					],
+					"name" : "ITU-graphics-programming",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						9,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "assimp::@f32328ade48509a7a5ba",
+					"jsonFile" : "target-assimp-Debug-4cf00281e576e894e384.json",
+					"name" : "assimp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "exercise00::@27deb5cbf0e88ef12d62",
+					"jsonFile" : "target-exercise00-Debug-1e33069044f7e8b70bd6.json",
+					"name" : "exercise00",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "exercise01::@d0eafce78031fbabb6ed",
+					"jsonFile" : "target-exercise01-Debug-1e1aba91165e212f3813.json",
+					"name" : "exercise01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "exercise02::@95d9f264b811cdd50121",
+					"jsonFile" : "target-exercise02-Debug-bb66035971622757b6c2.json",
+					"name" : "exercise02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "exercise03::@2fac78b1145a44f8620b",
+					"jsonFile" : "target-exercise03-Debug-7b5b2c43a5d13040d991.json",
+					"name" : "exercise03",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "exercise04::@d987de8cf16ff1772594",
+					"jsonFile" : "target-exercise04-Debug-ee5ff90a27d4f7461fa7.json",
+					"name" : "exercise04",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "exercise05::@21a7b2cbf4b9057a3737",
+					"jsonFile" : "target-exercise05-Debug-f5c58acc0ce0022209d9.json",
+					"name" : "exercise05",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glad::@3dc4ab03f6fdfa199928",
+					"jsonFile" : "target-glad-Debug-3effb9774ea69d6371f0.json",
+					"name" : "glad",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glfw::@7d8f67159c48f691a52d",
+					"jsonFile" : "target-glfw-Debug-1d3c7a1dd8c402003176.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "imgui::@136c5ea3e61728afbd98",
+					"jsonFile" : "target-imgui-Debug-399f1c00c3bc43e7e0f4.json",
+					"name" : "imgui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "itugl::@6e4f4d1442f75f8f2949",
+					"jsonFile" : "target-itugl-Debug-241f7be23d09c403cb8b.json",
+					"name" : "itugl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "uninstall::@35bb805c068f9c219110",
+					"jsonFile" : "target-uninstall-Debug-4ffb604cba039b8352a1.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025/cmake-build-debug",
+		"source" : "C:/Users/dkWiSkHe/OneDrive - LEGO/Desktop/Graphics Programming/graphics-programming-2025"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
