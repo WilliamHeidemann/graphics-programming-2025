@@ -93,15 +93,21 @@ void ViewerApplication::InitializeModel()
 
     // Configure loader
     ModelLoader loader(material);
+    loader.SetCreateMaterials(true);
     loader.SetMaterialAttribute(VertexAttribute::Semantic::Position, "VertexPosition");
     loader.SetMaterialAttribute(VertexAttribute::Semantic::Normal, "VertexNormal");
     loader.SetMaterialAttribute(VertexAttribute::Semantic::TexCoord0, "VertexTexCoord");
+
 
     // Load model
     m_model = loader.Load("models/mill/Mill.obj");
 
     // (todo) 05.1: Load and set textures
-
+    int materialCount = m_model.GetMaterialCount();
+    for (int i = 0; i < materialCount; i++) {
+        Material& materialX = m_model.GetMaterial(i);
+        materialX.SetUniformValue("Color", glm::vec4(1.0f, 0.5f, 0.5f, 1.0f));
+    }
 }
 
 void ViewerApplication::InitializeCamera()
